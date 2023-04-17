@@ -1,0 +1,148 @@
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.navbar{
+    background-color: #583318;
+}
+
+.navbar h1 img{
+    height: 90px;
+}
+
+.navbar-toggler{
+    background-color: #fdfced;
+}
+
+#cabecalho .nav .nav-link.active,
+.nav .nav-link.active,
+#fale-conosco button{
+    background-color: #ab0101;
+    color: #fff;
+}
+
+
+#cabecalho .nav .nav-link{
+    color:#fff;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#eventos,
+#fale-conosco,
+#fale-conosco input,
+#fale-conosco textarea{
+    background-color: #fdfced;
+}
+
+#fale-conosco input,
+#fale-conosco textarea{
+    border: 1px solid #000 ;
+}
+
+.section-title{
+    font-family: 'Alkatra', cursive;
+    margin: 0;
+}
+
+.text-colored{
+    color: #ab0101;
+}
+
+#sobre-o-restaurante,
+#cardapio{
+    
+    background-color: #fef6db;
+}
+
+#eventos img{
+    height: 270px;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #c70000;
+}
+
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.tab-cardapio img{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.social-links li{
+    list-style:none;
+    display:inline
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.social-links li a i{
+    color: #2b2b2b;
+}
+
+footer{
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background-image: url(https://a-static.besthdwallpaper.com/wood-background-brown-wooden-surface-wallpaper-1600x900-83922_47.jpg);
+}
+
+.container-footer{
+    background-color: rgba(0, 0, 0, .1);
+    height: 100%;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover{
+    transition: ease .2s;
+    color: #2b2b2b;
+}
+
+footer .bi-github:hover{
+    transition: ease .2s;
+    color: #595959;
+    cursor: pointer;
+}
+
+footer .bi-linkedin:hover{
+    transition: ease .2s;
+    color: #148ff5;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+
+@media (max-width: 992px){
+    .carousel-item img{
+        width: 100%;
+        height: 480px;
+    }
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        width: 100%;
+        height: 280px;
+    }
+
+    .tab-cardapio img{
+    
+        height: 300px;
+    }
+}
