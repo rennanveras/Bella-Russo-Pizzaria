@@ -4,6 +4,9 @@
 
 ## Sobre o projeto
 <p> 
+  O projeto é um site para apresentação de uma pizzaria falando sobre o restaurante, datas que podem ser comemoradas no local e o que não poderia faltar o cardápio
+  mostrando os pratos principais, bebidas e sobremesas, e no final do site um formulário para contato e a localização do restaurante.
+  <br>
   Neste projeto usei o framework bootstrap e Jquery
   Depois de algumas aulas de sobre esse framework decidi fazer esse site para conhecer um pouco mais sobre essa tecnologia que facilita muito a criação de sites respondivos,
   e com o jquery adicionei mascaras ao campos de texto e uma validação ao formulario.
