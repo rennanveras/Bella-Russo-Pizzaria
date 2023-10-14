@@ -131,18 +131,25 @@ footer .bi-linkedin:hover{
 @media (max-width: 992px){
     .carousel-item img{
         width: 100%;
-        height: 480px;
     }
 }
 
 @media (max-width: 767px){
     .carousel-item img{
         width: 100%;
-        height: 280px;
     }
 
     .tab-cardapio img{
-    
         height: 300px;
+    }
+
+    #eventos img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 468px) {
+    .tab-cardapio img{
+        height: 200px;
     }
 }
